@@ -3,10 +3,10 @@ package com.driver.test;
 
 public class TestCases {
    public static void main(String[]args){
-       B obj = new B();
+       A a = new A();
+       System.out.println(a.meth());
 
-       System.out.println(((A)obj).meth());
-
-       System.out.println(obj.meth());
+       B b = new B();
+       System.out.println(b.meth());
    }
 }
